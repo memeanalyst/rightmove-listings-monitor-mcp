@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "rightmove-listings-monitor": {
+      "url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/rightmove-listings-monitor"
+    }
+  }
+}

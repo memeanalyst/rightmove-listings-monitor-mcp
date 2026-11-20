@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.memeanalyst/rightmove-listings-monitor-mcp",
+  "title": "Rightmove Property Scraper \u2014 New Listings & Price-Drop Alerts",
+  "description": "Watch any Rightmove search for new listings and price drops, by Magnova",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/memeanalyst/rightmove-listings-monitor-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/rightmove-listings-monitor"
+    }
+  ]
+}
